@@ -1,6 +1,8 @@
+windows and linux compatible
+
 messenger "i" or "intelligent" uses python curses to update and display information
 
-messenger "e" or "efficient" uses no graphics at all and is meant to be as fast as possible and is compatible with mobile
+messenger "e" or "efficient" uses no graphics at all and is meant to be as fast as possible and is compatible with mobile/android
 
 messenger server is compatible with all clients within its version (all 1.* clients will work with a 1.* server)
 
@@ -12,11 +14,17 @@ for easy setup just download the 7z file.
 
 COMMANDS:
 
+###
+
 Commands starting with a "#" are local and not seen by the server or anyone else. as of version 1.0 there are only 2 and im working on more
 
 #help, #exit, #import (effecient only)
 
 #exit will exit the application without errors. probably
+
+###
+
+###
 
 Commands starting with a "server.main." are seen and proccessed by the server and not other clients
 
@@ -24,5 +32,22 @@ bug-report: , get-users, get-link, help, get-contact
 
 bug reports go to the server, make sure to put the ":"
 
+###
+
 If you need to show a command to somebody, any presence of a double quotation ' " ' will make the server ignore the command and send it as a normal message
 
+features to add:
+
+DM or "whisper"
+
+update username
+
+update ID
+
+change color (intelligent)
+
+quick-message (makes it possible to assign a phrase to an ID like "#1" or "#smile" if you were to do ascii art)
+
+resize (intelligent) (curses has window resizing issues)
+
+messenger_graphical (tkinter version for graphical desktops)
